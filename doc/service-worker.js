@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.e847fada0fd44af5991984dadb709ae3.js"
+  "/precache-manifest.677215d67108233b8009d0b71558a5ef.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "coverage-report"});
