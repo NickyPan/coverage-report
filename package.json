@@ -2,10 +2,12 @@
   "name": "coverage-report",
   "version": "0.1.0",
   "private": true,
+  "homepage": "git@github.com:NickyPan/coverage-report.git",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.4",
@@ -14,6 +16,7 @@
     "register-service-worker": "^1.5.2",
     "vue": "^2.6.6",
     "vue-flatpickr-component": "^8.1.1",
+    "vue-gh-pages": "^1.19.0",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.2",
     "vue2-transitions": "^0.2.3"

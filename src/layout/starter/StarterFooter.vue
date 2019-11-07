@@ -16,7 +16,7 @@
                             <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Based on  Creative Tim</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                            <a href="https://github.com/NickyPan/coverage-report/blob/master/LICENSE.md"
                                class="nav-link" target="_blank">MIT License</a>
                         </li>
                     </ul>
