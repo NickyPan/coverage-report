@@ -10,7 +10,7 @@ module.exports = {
     ]
   },
   pwa: {
-    name: 'Vue Argon Design',
+    name: 'Coverage Report',
     themeColor: '#172b4d',
     msTileColor: '#172b4d',
     appleMobileWebAppCapable: 'yes',
@@ -19,5 +19,6 @@ module.exports = {
   css: {
     // Enable CSS source maps.
     sourceMap: process.env.NODE_ENV !== 'production'
-  }
+  },
+  publicPath: process.env.NODE_ENV === 'production' ? '/coverage-report/' : '/'
 };
